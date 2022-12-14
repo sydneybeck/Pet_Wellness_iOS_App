@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RemindersCellReusableCell" rowHeight="100" id="KGk-i7-Jjw" customClass="RemindersCell" customModule="Pet_Wellness" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9KO-zS-SFL" userLabel="Main Stack View">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wfq-wt-XsB" userLabel="Info Stack View">
+                                <rect key="frame" x="0.0" y="0.0" width="256" height="90"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9e7-s6-heL" userLabel="Name Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="256" height="50"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Name: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uam-P5-Ldl">
+                                                <rect key="frame" x="5" y="0.0" width="65.666666666666671" height="50"/>
+                                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKU-Bm-beX">
+                                                <rect key="frame" x="75.666666666666671" y="0.0" width="180.33333333333331" height="50"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="uKU-Bm-beX" secondAttribute="bottom" identifier="nameLabelBottom" id="1qR-Zt-RjN"/>
+                                            <constraint firstItem="uKU-Bm-beX" firstAttribute="top" secondItem="9e7-s6-heL" secondAttribute="top" identifier="nameLabelTop" id="C2l-Vq-mEA"/>
+                                            <constraint firstItem="Uam-P5-Ldl" firstAttribute="top" secondItem="9e7-s6-heL" secondAttribute="top" identifier="nameTop" id="G5t-Ul-uxG"/>
+                                            <constraint firstAttribute="trailing" secondItem="uKU-Bm-beX" secondAttribute="trailing" identifier="nameLabelRight" id="HO6-RA-82V"/>
+                                            <constraint firstItem="uKU-Bm-beX" firstAttribute="leading" secondItem="Uam-P5-Ldl" secondAttribute="trailing" constant="5" identifier="nameLabelLeft" id="XxW-Eb-0Pq"/>
+                                            <constraint firstItem="Uam-P5-Ldl" firstAttribute="leading" secondItem="9e7-s6-heL" secondAttribute="leading" constant="5" identifier="nameLeft" id="ubd-1R-FxV"/>
+                                            <constraint firstAttribute="bottom" secondItem="Uam-P5-Ldl" secondAttribute="bottom" identifier="nameBottom" id="wYs-Tu-vQY"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8za-TN-2lW" userLabel="Date Stack View">
+                                        <rect key="frame" x="0.0" y="50" width="256" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COc-cA-V9y">
+                                                <rect key="frame" x="5" y="0.0" width="50" height="40"/>
+                                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUN-Y6-IfB">
+                                                <rect key="frame" x="60" y="0.0" width="196" height="40"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="wUN-Y6-IfB" secondAttribute="trailing" identifier="dateRight" id="0zQ-oG-htr"/>
+                                            <constraint firstAttribute="bottom" secondItem="wUN-Y6-IfB" secondAttribute="bottom" identifier="dateLabelBottom" id="4yS-G9-TKe"/>
+                                            <constraint firstItem="COc-cA-V9y" firstAttribute="top" secondItem="8za-TN-2lW" secondAttribute="top" identifier="dateTop" id="PMj-cj-8vU"/>
+                                            <constraint firstItem="COc-cA-V9y" firstAttribute="leading" secondItem="8za-TN-2lW" secondAttribute="leading" constant="5" identifier="dateLeft" id="QqW-UC-bXZ"/>
+                                            <constraint firstItem="wUN-Y6-IfB" firstAttribute="top" secondItem="8za-TN-2lW" secondAttribute="top" identifier="dateLabelTop" id="jIn-5b-jGV"/>
+                                            <constraint firstAttribute="bottom" secondItem="COc-cA-V9y" secondAttribute="bottom" identifier="dateBottom" id="m7b-kc-3p4"/>
+                                            <constraint firstItem="wUN-Y6-IfB" firstAttribute="leading" secondItem="COc-cA-V9y" secondAttribute="trailing" constant="5" identifier="dateLabelLeft" id="t06-ga-raC"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" name="CustomBeige"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="8za-TN-2lW" secondAttribute="bottom" id="5Vh-7n-hsQ"/>
+                                    <constraint firstItem="8za-TN-2lW" firstAttribute="leading" secondItem="wfq-wt-XsB" secondAttribute="leading" id="SSU-Hv-1Ij"/>
+                                    <constraint firstItem="8za-TN-2lW" firstAttribute="top" secondItem="9e7-s6-heL" secondAttribute="bottom" identifier="dateStackTop" id="b2Y-eg-vlY"/>
+                                    <constraint firstAttribute="trailing" secondItem="9e7-s6-heL" secondAttribute="trailing" id="hs9-R9-rKd"/>
+                                    <constraint firstAttribute="trailing" secondItem="8za-TN-2lW" secondAttribute="trailing" identifier="leftStackRight" id="r5d-K1-oTn"/>
+                                    <constraint firstItem="9e7-s6-heL" firstAttribute="leading" secondItem="wfq-wt-XsB" secondAttribute="leading" id="v8a-vb-6eq"/>
+                                    <constraint firstItem="9e7-s6-heL" firstAttribute="top" secondItem="wfq-wt-XsB" secondAttribute="top" id="vGa-cW-xra"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" id="0nT-Ks-qu1">
+                                <rect key="frame" x="256" y="0.0" width="64" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFE-x4-OSS">
+                                        <rect key="frame" x="3.3333333333333108" y="27.666666666666668" width="57.666666666666657" height="34.666666666666657"/>
+                                        <color key="backgroundColor" name="CustomGreen"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Edit">
+                                            <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="18"/>
+                                            <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="editButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Y8m-V1-Sgv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="CustomBeige"/>
+                                <constraints>
+                                    <constraint firstItem="TFE-x4-OSS" firstAttribute="centerY" secondItem="0nT-Ks-qu1" secondAttribute="centerY" id="Lay-NF-oFK"/>
+                                    <constraint firstItem="TFE-x4-OSS" firstAttribute="centerX" secondItem="0nT-Ks-qu1" secondAttribute="centerX" id="yVG-P0-NWO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" name="CustomBeige"/>
+                        <constraints>
+                            <constraint firstItem="0nT-Ks-qu1" firstAttribute="width" secondItem="9KO-zS-SFL" secondAttribute="width" multiplier="0.2" id="CC6-Ct-Rhu"/>
+                            <constraint firstItem="wfq-wt-XsB" firstAttribute="width" secondItem="9KO-zS-SFL" secondAttribute="width" multiplier="0.8" id="VF0-kg-uyV"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" name="CustomBeige"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="9KO-zS-SFL" secondAttribute="bottom" identifier="mainStackBottom" id="0Mn-1J-qS5"/>
+                    <constraint firstItem="9KO-zS-SFL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" identifier="mainStackLeft" id="Eev-nI-OKJ"/>
+                    <constraint firstAttribute="trailing" secondItem="9KO-zS-SFL" secondAttribute="trailing" identifier="mainStackRight" id="hbI-u6-lxA"/>
+                    <constraint firstItem="9KO-zS-SFL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" identifier="mainStackTop" id="pUb-IU-6hJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLabel" destination="wUN-Y6-IfB" id="HT1-7k-f2l"/>
+                <outlet property="editButton" destination="TFE-x4-OSS" id="xne-z0-ztQ"/>
+                <outlet property="nameLabel" destination="uKU-Bm-beX" id="WSp-Pz-R0c"/>
+            </connections>
+            <point key="canvasLocation" x="-52.307692307692307" y="36.96682464454976"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="CustomBeige">
+            <color red="1" green="0.9649999737739563" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CustomGreen">
+            <color red="0.71399998664855957" green="0.88599997758865356" blue="0.63099998235702515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

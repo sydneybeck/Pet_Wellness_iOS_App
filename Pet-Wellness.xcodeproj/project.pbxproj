@@ -7,15 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C80CD1AF2923F8A2009B34B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C80CD1AE2923F8A2009B34B4 /* GoogleService-Info.plist */; };
+		C82B9FCF292297E70049B1EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B9FCE292297E70049B1EE /* MainViewController.swift */; };
+		C82B9FD12922980B0049B1EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B9FD02922980B0049B1EE /* LoginViewController.swift */; };
+		C82B9FD3292298160049B1EE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B9FD2292298160049B1EE /* RegisterViewController.swift */; };
+		C82B9FD52922A5250049B1EE /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B9FD42922A5250049B1EE /* DashboardViewController.swift */; };
+		C82B9FD82922A6E80049B1EE /* PetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B9FD62922A6E80049B1EE /* PetCell.swift */; };
+		C82B9FD92922A6E80049B1EE /* PetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C82B9FD72922A6E80049B1EE /* PetCell.xib */; };
 		C847FCF329227A5F004DCE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847FCF229227A5F004DCE3B /* AppDelegate.swift */; };
 		C847FCF529227A5F004DCE3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847FCF429227A5F004DCE3B /* SceneDelegate.swift */; };
-		C847FCF729227A5F004DCE3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847FCF629227A5F004DCE3B /* ViewController.swift */; };
 		C847FCFA29227A5F004DCE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C847FCF829227A5F004DCE3B /* Main.storyboard */; };
 		C847FCFC29227A64004DCE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C847FCFB29227A64004DCE3B /* Assets.xcassets */; };
 		C847FCFF29227A64004DCE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C847FCFD29227A64004DCE3B /* LaunchScreen.storyboard */; };
 		C847FD0A29227A65004DCE3B /* Pet_WellnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847FD0929227A65004DCE3B /* Pet_WellnessTests.swift */; };
 		C847FD1429227A65004DCE3B /* Pet_WellnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847FD1329227A65004DCE3B /* Pet_WellnessUITests.swift */; };
 		C847FD1629227A65004DCE3B /* Pet_WellnessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847FD1529227A65004DCE3B /* Pet_WellnessUITestsLaunchTests.swift */; };
+		C84BF95D2940DF8600100B59 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84BF95C2940DF8600100B59 /* Reminders.swift */; };
+		C84BF95F2940DFDD00100B59 /* AddReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84BF95E2940DFDD00100B59 /* AddReminderViewController.swift */; };
+		C84BF9612940E12A00100B59 /* EditReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84BF9602940E12A00100B59 /* EditReminderViewController.swift */; };
+		C84BF9642940E29C00100B59 /* RemindersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84BF9622940E29C00100B59 /* RemindersCell.swift */; };
+		C84BF9652940E29C00100B59 /* RemindersCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C84BF9632940E29C00100B59 /* RemindersCellTableViewCell.xib */; };
+		C84BF9672942550300100B59 /* ProvidersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84BF9662942550300100B59 /* ProvidersViewController.swift */; };
+		C84BF96B29425E8800100B59 /* EditPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84BF96A29425E8800100B59 /* EditPetViewController.swift */; };
+		C84BF96E2947A47F00100B59 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84BF96D2947A47F00100B59 /* Database.swift */; };
+		C8934BCD293E8797006E671D /* EditMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8934BCC293E8797006E671D /* EditMedicationViewController.swift */; };
+		C8B7124C293A6B0900527DF6 /* PetProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B7124B293A6B0900527DF6 /* PetProfileViewController.swift */; };
+		C8B71251293E1E7C00527DF6 /* MedicationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B7124F293E1E7C00527DF6 /* MedicationsCell.swift */; };
+		C8B71252293E1E7C00527DF6 /* MedicationsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8B71250293E1E7C00527DF6 /* MedicationsCell.xib */; };
+		C8B71254293E24C400527DF6 /* Medications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B71253293E24C400527DF6 /* Medications.swift */; };
+		C8B71256293E25FC00527DF6 /* AddMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B71255293E25FC00527DF6 /* AddMedicationViewController.swift */; };
+		C8BE99AA2949FA9F005DB78F /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BE99A92949FA9F005DB78F /* ReportsViewController.swift */; };
+		C8BE99B1294A4825005DB78F /* DefaultMedicationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BE99AF294A4825005DB78F /* DefaultMedicationsCell.swift */; };
+		C8BE99B2294A4825005DB78F /* DefaultMedicationsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8BE99B0294A4825005DB78F /* DefaultMedicationsCell.xib */; };
+		C8BE99B5294A4949005DB78F /* DefaultRemindersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BE99B3294A4949005DB78F /* DefaultRemindersCell.swift */; };
+		C8BE99B6294A4949005DB78F /* DefaultRemindersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8BE99B4294A4949005DB78F /* DefaultRemindersCell.xib */; };
+		C8BE99B9294A4AF1005DB78F /* DefaultPetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BE99B7294A4AF1005DB78F /* DefaultPetCell.swift */; };
+		C8BE99BA294A4AF1005DB78F /* DefaultPetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8BE99B8294A4AF1005DB78F /* DefaultPetCell.xib */; };
+		C8C924B729241C0E00BCC8C2 /* AddPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C924B629241C0E00BCC8C2 /* AddPetViewController.swift */; };
+		C8F7F75F29257AF900A21707 /* PetProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7F75E29257AF900A21707 /* PetProfile.swift */; };
+		C8F7F762292582E500A21707 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C8F7F761292582E500A21707 /* FirebaseAuth */; };
+		C8F7F764292582E500A21707 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C8F7F763292582E500A21707 /* FirebaseDatabase */; };
+		C8F7F766292582E500A21707 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C8F7F765292582E500A21707 /* FirebaseFirestore */; };
+		C8F7F768292582E500A21707 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C8F7F767292582E500A21707 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +69,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C80CD1AE2923F8A2009B34B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C82B9FCE292297E70049B1EE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C82B9FD02922980B0049B1EE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C82B9FD2292298160049B1EE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C82B9FD42922A5250049B1EE /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		C82B9FD62922A6E80049B1EE /* PetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCell.swift; sourceTree = "<group>"; };
+		C82B9FD72922A6E80049B1EE /* PetCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetCell.xib; sourceTree = "<group>"; };
 		C847FCEF29227A5F004DCE3B /* Pet-Wellness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet-Wellness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C847FCF229227A5F004DCE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C847FCF429227A5F004DCE3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C847FCF629227A5F004DCE3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C847FCF929227A5F004DCE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C847FCFB29227A64004DCE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C847FCFE29227A64004DCE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +88,29 @@
 		C847FD0F29227A65004DCE3B /* Pet-WellnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pet-WellnessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C847FD1329227A65004DCE3B /* Pet_WellnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet_WellnessUITests.swift; sourceTree = "<group>"; };
 		C847FD1529227A65004DCE3B /* Pet_WellnessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet_WellnessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C84BF95C2940DF8600100B59 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
+		C84BF95E2940DFDD00100B59 /* AddReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderViewController.swift; sourceTree = "<group>"; };
+		C84BF9602940E12A00100B59 /* EditReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderViewController.swift; sourceTree = "<group>"; };
+		C84BF9622940E29C00100B59 /* RemindersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersCell.swift; sourceTree = "<group>"; };
+		C84BF9632940E29C00100B59 /* RemindersCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemindersCellTableViewCell.xib; sourceTree = "<group>"; };
+		C84BF9662942550300100B59 /* ProvidersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvidersViewController.swift; sourceTree = "<group>"; };
+		C84BF96A29425E8800100B59 /* EditPetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPetViewController.swift; sourceTree = "<group>"; };
+		C84BF96D2947A47F00100B59 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		C8934BCC293E8797006E671D /* EditMedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMedicationViewController.swift; sourceTree = "<group>"; };
+		C8B7124B293A6B0900527DF6 /* PetProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileViewController.swift; sourceTree = "<group>"; };
+		C8B7124F293E1E7C00527DF6 /* MedicationsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsCell.swift; sourceTree = "<group>"; };
+		C8B71250293E1E7C00527DF6 /* MedicationsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MedicationsCell.xib; sourceTree = "<group>"; };
+		C8B71253293E24C400527DF6 /* Medications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medications.swift; sourceTree = "<group>"; };
+		C8B71255293E25FC00527DF6 /* AddMedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationViewController.swift; sourceTree = "<group>"; };
+		C8BE99A92949FA9F005DB78F /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		C8BE99AF294A4825005DB78F /* DefaultMedicationsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMedicationsCell.swift; sourceTree = "<group>"; };
+		C8BE99B0294A4825005DB78F /* DefaultMedicationsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultMedicationsCell.xib; sourceTree = "<group>"; };
+		C8BE99B3294A4949005DB78F /* DefaultRemindersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRemindersCell.swift; sourceTree = "<group>"; };
+		C8BE99B4294A4949005DB78F /* DefaultRemindersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultRemindersCell.xib; sourceTree = "<group>"; };
+		C8BE99B7294A4AF1005DB78F /* DefaultPetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPetCell.swift; sourceTree = "<group>"; };
+		C8BE99B8294A4AF1005DB78F /* DefaultPetCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultPetCell.xib; sourceTree = "<group>"; };
+		C8C924B629241C0E00BCC8C2 /* AddPetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetViewController.swift; sourceTree = "<group>"; };
+		C8F7F75E29257AF900A21707 /* PetProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +118,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F7F764292582E500A21707 /* FirebaseDatabase in Frameworks */,
+				C8F7F768292582E500A21707 /* FirebaseStorage in Frameworks */,
+				C8F7F762292582E500A21707 /* FirebaseAuth in Frameworks */,
+				C8F7F766292582E500A21707 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +165,15 @@
 		C847FCF129227A5F004DCE3B /* Pet-Wellness */ = {
 			isa = PBXGroup;
 			children = (
-				C847FCF229227A5F004DCE3B /* AppDelegate.swift */,
-				C847FCF429227A5F004DCE3B /* SceneDelegate.swift */,
-				C847FCF629227A5F004DCE3B /* ViewController.swift */,
-				C847FCF829227A5F004DCE3B /* Main.storyboard */,
+				C847FD2629227B45004DCE3B /* Common */,
+				C847FD2529227B3A004DCE3B /* Models */,
+				C84BF96C2947A3A500100B59 /* Firebase */,
+				C8FBD35629227BA90068B4B1 /* Controllers */,
+				C847FD2229227B19004DCE3B /* Views */,
 				C847FCFB29227A64004DCE3B /* Assets.xcassets */,
 				C847FCFD29227A64004DCE3B /* LaunchScreen.storyboard */,
 				C847FD0029227A64004DCE3B /* Info.plist */,
+				C80CD1AE2923F8A2009B34B4 /* GoogleService-Info.plist */,
 			);
 			path = "Pet-Wellness";
 			sourceTree = "<group>";
@@ -127,6 +195,74 @@
 			path = "Pet-WellnessUITests";
 			sourceTree = "<group>";
 		};
+		C847FD2229227B19004DCE3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C847FCF829227A5F004DCE3B /* Main.storyboard */,
+				C82B9FD62922A6E80049B1EE /* PetCell.swift */,
+				C82B9FD72922A6E80049B1EE /* PetCell.xib */,
+				C8B7124F293E1E7C00527DF6 /* MedicationsCell.swift */,
+				C8B71250293E1E7C00527DF6 /* MedicationsCell.xib */,
+				C84BF9622940E29C00100B59 /* RemindersCell.swift */,
+				C84BF9632940E29C00100B59 /* RemindersCellTableViewCell.xib */,
+				C8BE99AF294A4825005DB78F /* DefaultMedicationsCell.swift */,
+				C8BE99B0294A4825005DB78F /* DefaultMedicationsCell.xib */,
+				C8BE99B3294A4949005DB78F /* DefaultRemindersCell.swift */,
+				C8BE99B4294A4949005DB78F /* DefaultRemindersCell.xib */,
+				C8BE99B7294A4AF1005DB78F /* DefaultPetCell.swift */,
+				C8BE99B8294A4AF1005DB78F /* DefaultPetCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C847FD2529227B3A004DCE3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C8F7F75E29257AF900A21707 /* PetProfile.swift */,
+				C8B71253293E24C400527DF6 /* Medications.swift */,
+				C84BF95C2940DF8600100B59 /* Reminders.swift */,
+			);
+			name = Models;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C847FD2629227B45004DCE3B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C847FCF229227A5F004DCE3B /* AppDelegate.swift */,
+				C847FCF429227A5F004DCE3B /* SceneDelegate.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		C84BF96C2947A3A500100B59 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				C84BF96D2947A47F00100B59 /* Database.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		C8FBD35629227BA90068B4B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C82B9FCE292297E70049B1EE /* MainViewController.swift */,
+				C82B9FD02922980B0049B1EE /* LoginViewController.swift */,
+				C82B9FD2292298160049B1EE /* RegisterViewController.swift */,
+				C82B9FD42922A5250049B1EE /* DashboardViewController.swift */,
+				C8C924B629241C0E00BCC8C2 /* AddPetViewController.swift */,
+				C8B7124B293A6B0900527DF6 /* PetProfileViewController.swift */,
+				C8B71255293E25FC00527DF6 /* AddMedicationViewController.swift */,
+				C84BF95E2940DFDD00100B59 /* AddReminderViewController.swift */,
+				C8934BCC293E8797006E671D /* EditMedicationViewController.swift */,
+				C84BF9602940E12A00100B59 /* EditReminderViewController.swift */,
+				C84BF9662942550300100B59 /* ProvidersViewController.swift */,
+				C84BF96A29425E8800100B59 /* EditPetViewController.swift */,
+				C8BE99A92949FA9F005DB78F /* ReportsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +279,12 @@
 			dependencies = (
 			);
 			name = "Pet-Wellness";
+			packageProductDependencies = (
+				C8F7F761292582E500A21707 /* FirebaseAuth */,
+				C8F7F763292582E500A21707 /* FirebaseDatabase */,
+				C8F7F765292582E500A21707 /* FirebaseFirestore */,
+				C8F7F767292582E500A21707 /* FirebaseStorage */,
+			);
 			productName = "Pet-Wellness";
 			productReference = C847FCEF29227A5F004DCE3B /* Pet-Wellness.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +357,9 @@
 				Base,
 			);
 			mainGroup = C847FCE629227A5F004DCE3B;
+			packageReferences = (
+				C8F7F760292582E500A21707 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C847FCF029227A5F004DCE3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +376,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8BE99B2294A4825005DB78F /* DefaultMedicationsCell.xib in Resources */,
 				C847FCFF29227A64004DCE3B /* LaunchScreen.storyboard in Resources */,
 				C847FCFC29227A64004DCE3B /* Assets.xcassets in Resources */,
+				C8BE99BA294A4AF1005DB78F /* DefaultPetCell.xib in Resources */,
+				C8BE99B6294A4949005DB78F /* DefaultRemindersCell.xib in Resources */,
+				C8B71252293E1E7C00527DF6 /* MedicationsCell.xib in Resources */,
+				C80CD1AF2923F8A2009B34B4 /* GoogleService-Info.plist in Resources */,
+				C82B9FD92922A6E80049B1EE /* PetCell.xib in Resources */,
 				C847FCFA29227A5F004DCE3B /* Main.storyboard in Resources */,
+				C84BF9652940E29C00100B59 /* RemindersCellTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +410,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C847FCF729227A5F004DCE3B /* ViewController.swift in Sources */,
+				C8B71251293E1E7C00527DF6 /* MedicationsCell.swift in Sources */,
+				C82B9FD12922980B0049B1EE /* LoginViewController.swift in Sources */,
+				C82B9FD52922A5250049B1EE /* DashboardViewController.swift in Sources */,
+				C84BF95D2940DF8600100B59 /* Reminders.swift in Sources */,
+				C82B9FD3292298160049B1EE /* RegisterViewController.swift in Sources */,
+				C8934BCD293E8797006E671D /* EditMedicationViewController.swift in Sources */,
+				C8BE99AA2949FA9F005DB78F /* ReportsViewController.swift in Sources */,
+				C84BF96B29425E8800100B59 /* EditPetViewController.swift in Sources */,
+				C84BF95F2940DFDD00100B59 /* AddReminderViewController.swift in Sources */,
 				C847FCF329227A5F004DCE3B /* AppDelegate.swift in Sources */,
+				C84BF9642940E29C00100B59 /* RemindersCell.swift in Sources */,
+				C8BE99B5294A4949005DB78F /* DefaultRemindersCell.swift in Sources */,
+				C8B7124C293A6B0900527DF6 /* PetProfileViewController.swift in Sources */,
+				C8B71254293E24C400527DF6 /* Medications.swift in Sources */,
+				C84BF96E2947A47F00100B59 /* Database.swift in Sources */,
 				C847FCF529227A5F004DCE3B /* SceneDelegate.swift in Sources */,
+				C8BE99B1294A4825005DB78F /* DefaultMedicationsCell.swift in Sources */,
+				C8F7F75F29257AF900A21707 /* PetProfile.swift in Sources */,
+				C82B9FCF292297E70049B1EE /* MainViewController.swift in Sources */,
+				C8C924B729241C0E00BCC8C2 /* AddPetViewController.swift in Sources */,
+				C8BE99B9294A4AF1005DB78F /* DefaultPetCell.swift in Sources */,
+				C84BF9612940E12A00100B59 /* EditReminderViewController.swift in Sources */,
+				C8B71256293E25FC00527DF6 /* AddMedicationViewController.swift in Sources */,
+				C84BF9672942550300100B59 /* ProvidersViewController.swift in Sources */,
+				C82B9FD82922A6E80049B1EE /* PetCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,11 +614,13 @@
 				DEVELOPMENT_TEAM = ZCGHF4562B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pet-Wellness/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,11 +644,13 @@
 				DEVELOPMENT_TEAM = ZCGHF4562B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pet-Wellness/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,6 +780,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C8F7F760292582E500A21707 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C8F7F761292582E500A21707 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8F7F760292582E500A21707 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C8F7F763292582E500A21707 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8F7F760292582E500A21707 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C8F7F765292582E500A21707 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8F7F760292582E500A21707 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C8F7F767292582E500A21707 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8F7F760292582E500A21707 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C847FCE729227A5F004DCE3B /* Project object */;
 }

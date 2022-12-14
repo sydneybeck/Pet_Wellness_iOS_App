@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DefaultRemindersCell" rowHeight="84" id="KGk-i7-Jjw" customClass="DefaultRemindersCell" customModule="Pet_Wellness" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="413" height="84"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="413" height="84"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No reminders found, add some by clicking the &quot;Add Reminders&quot; button above!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sao-4B-TNW">
+                        <rect key="frame" x="10" y="10" width="393" height="64"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" name="CustomBeige"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Sao-4B-TNW" secondAttribute="trailing" constant="10" id="6J3-Yz-5j6"/>
+                    <constraint firstAttribute="bottom" secondItem="Sao-4B-TNW" secondAttribute="bottom" constant="10" id="Kbi-LC-nrC"/>
+                    <constraint firstItem="Sao-4B-TNW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="QKI-XG-Ot6"/>
+                    <constraint firstItem="Sao-4B-TNW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="UP9-9Q-a8e"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="22.307692307692307" y="34.834123222748815"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="CustomBeige">
+            <color red="1" green="0.9649999737739563" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
